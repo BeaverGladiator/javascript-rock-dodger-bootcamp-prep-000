@@ -164,7 +164,7 @@ function moveDodgerLeft() {
    */
    const dodgerLeftEdge = positionToInteger(DODGER.style.left)
    if (dodgerLeftEdge > 0) {
-     dodgerLeftEdge.style
+     dodgerLeftEdge.style.left = 
    }
 }
 
