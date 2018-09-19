@@ -141,6 +141,8 @@ function endGame() {
     ROCKS.shift()
   }
   
+  
+  
   window.removeEventListener('keydown', moveDodger);
   
   
