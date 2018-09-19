@@ -148,6 +148,8 @@ function moveDodger(e) {
    * And be sure to use the functions declared below!
    */
    
+   if(e.whch)
+   
 }
 
 function moveDodgerLeft() {
