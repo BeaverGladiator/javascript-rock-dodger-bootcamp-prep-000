@@ -138,9 +138,7 @@ function endGame() {
   
   while (ROCKS.length > 0) 
   
-  var meh = document.querySelectorAll('li')
-  
-  var allRocks = 
+  var allRocks = GAME.querySelectorAll('.rock')
   
   for (i = 0; i < cars.length; i++) { 
     text += cars[i] + "<br>";
