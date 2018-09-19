@@ -136,12 +136,11 @@ function createRock(x) {
 function endGame() {
   clearInterval(gameInterval);
   
-  while (ROCKS.length > 0) 
-  
   var allRocks = GAME.querySelectorAll('.rock')
   
-  for (i = 0; i < cars.length; i++) { 
-    text += cars[i] + "<br>";
+  for (i = 0; i < allRocks.length; i++) { 
+    allRocks[i].remove()
+    ROCKS.shift()
   }
   
   window.removeEventListener('keydown', moveDodger);
