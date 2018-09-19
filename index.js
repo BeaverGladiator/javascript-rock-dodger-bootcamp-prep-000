@@ -136,10 +136,9 @@ function createRock(x) {
 function endGame() {
   clearInterval(gameInterval);
   
-  while (ROCKS.length > 0) { 
-    GAME.removeChild(ROCKS[0])
-    ROCKS.shift()
-  }
+  while (ROCKS.length > 0) 
+  
+  var meh = document.querySelectorAll('li')
   
   var allRocks = 
   
