@@ -137,7 +137,6 @@ function endGame() {
   clearInterval(gameInterval);
   
   var allRocks = GAME.querySelectorAll('.rock')
-  
   for (i = 0; i < allRocks.length; i++) { 
     allRocks[i].remove()
     ROCKS.shift()
