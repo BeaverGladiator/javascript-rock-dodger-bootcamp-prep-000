@@ -165,7 +165,7 @@ function moveDodgerLeft() {
    const dodgerLeftEdge = positionToInteger(DODGER.style.left)
    if (dodgerLeftEdge > 0) {
      dodgerLeftEdge.style.left = `${dodgerLeftEdge - 4}px`
-     window.requestAnimationFrame()
+     window.requestAnimationFrame(moveDodgerLeft)
    }
 }
 
